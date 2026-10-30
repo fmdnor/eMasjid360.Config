@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/database/" />
+  <Folder Name="/database/tables/">
+    <File Path="districts.sql" />
+    <File Path="mosques.sql" />
+    <File Path="mukims.sql" />
+    <File Path="qaryahs.sql" />
+    <File Path="states.sql" />
+    <File Path="suraus.sql" />
+  </Folder>
+  <Folder Name="/doc/">
+    <File Path="../Cadangan Pak Mail.docx" />
+    <File Path="../Pengurusan Masjid 1.pdf" />
+    <File Path="../struktur_eQaryah.txt" />
+  </Folder>
+  <Folder Name="/docker/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+</Solution>

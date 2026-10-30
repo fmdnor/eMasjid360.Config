@@ -1,0 +1,27 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: eqaryah-postgres
+
+    restart: unless-stopped
+
+    environment:
+      TZ: Asia/Kuala_Lumpur
+      POSTGRES_USER: eqaryah_admin
+      POSTGRES_PASSWORD: Eqaryah@2026!S3cure
+      POSTGRES_DB: eqaryah
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U eqaryah_admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
