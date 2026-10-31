@@ -1,12 +1,16 @@
 <Solution>
   <Folder Name="/database/" />
   <Folder Name="/database/tables/">
+    <File Path="committee_ positions.sql" />
+    <File Path="committee_members.sql" />
+    <File Path="committee_terms.sql" />
     <File Path="districts.sql" />
     <File Path="mosques.sql" />
     <File Path="mukims.sql" />
     <File Path="qaryahs.sql" />
     <File Path="states.sql" />
     <File Path="suraus.sql" />
+    <File Path="ux_committee_active_term.sql" />
   </Folder>
   <Folder Name="/doc/">
     <File Path="../Cadangan Pak Mail.docx" />
